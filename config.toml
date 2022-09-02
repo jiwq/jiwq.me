@@ -1,0 +1,64 @@
+baseURL = "https://jiwq.me/"
+defaultContentLanguage = "en"
+languageCode = "en"
+enableEmoji = true
+
+title = "Wanqiang Ji"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+pygmentsStyle = "monokai"
+
+[params]
+  avatarURL = "/images/avatar.jpeg"
+  avatarSize = "size-m"
+  description = "Software Engineer · Independent Writer · Amateur Designer"
+  #metaKeywords = ["jiwq", "kubernetes", "hadoop"]
+  accentColor = "#FF4D4D"
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  footer = "Wanqiang Ji"
+  socialIcons = [
+    {name = "github", url = "https://jiwq.org"},
+    {name = "dribbble", url = "https://dribbble.com/jiwq"},
+    {name = "twitter", url = "https://twitter.com/jiwanqiang"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/jiwq"},
+    {name = "stackoverflow", url = "https://stackoverflow.com/users/2415958/jiwq"},
+    {name = "gmail", url = "mailto:"},
+  ]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/articles/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
